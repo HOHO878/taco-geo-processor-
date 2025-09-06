@@ -1652,7 +1652,7 @@ class MainWindow(QMainWindow):
             # Initialize updater with your GitHub repository
             # GitHub username: HOHO878
             # You need to create a repository for your project
-            updater = GitHubUpdater("HOHO878", "taco-geo-processor")
+            updater = GitHubUpdater("HOHO878", "taco-geo-processor-")
             
             progress_dialog.setValue(50)
             QApplication.processEvents()
@@ -1736,7 +1736,7 @@ class MainWindow(QMainWindow):
         """Downloads the update and runs the apply script."""
         # Open the download page in browser
         import webbrowser
-        webbrowser.open("https://github.com/your-repo/releases")
+        webbrowser.open("https://github.com/HOHO878/taco-geo-processor-/releases")
         
         QMessageBox.information(
             self,
