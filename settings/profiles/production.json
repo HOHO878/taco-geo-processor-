@@ -1,0 +1,62 @@
+{
+    "dxf": {
+        "layer_name": "Survey_Export_Prod",
+        "color_mode": "By Layer",
+        "use_code_as_layer": true,
+        "dxf_line_layer_prefix": "LINE_",
+        "dxf_poly_layer_prefix": "POLY_",
+        "export_points": true,
+        "export_lines": true,
+        "export_polygons": true,
+        "export_as_blocks": false,
+        "point_style": "square_cross",
+        "point_size": 2.0,
+        "line_connection_logic_key": "by_code",
+        "custom_line_grouping_column": "Code",
+        "sort_points_in_line_group": true,
+        "export_options": [
+            "Point Number",
+            "Elevation"
+        ],
+        "text_layer_prefix": "Text_",
+        "text_rotation": 0.0,
+        "point_color": "#ff0000",
+        "line_color": "#00ff00",
+        "poly_color": "#0000ff",
+        "Point_Number_height": 0.2,
+        "Point_Number_offset": 0.3,
+        "Point_Number_color": "#e54ce5",
+        "Description_height": 0.2,
+        "Description_offset": -0.5,
+        "Description_color": "#00aaff",
+        "Elevation_height": 0.15,
+        "Elevation_offset": -0.8,
+        "Elevation_color": "#0055ff",
+        "Code_height": 0.15,
+        "Code_offset": 0.8,
+        "Code_color": "#ff0000"
+    },
+    "kml": {
+        "name": "Survey Export Prod",
+        "kml_format": "KML",
+        "zone_number": 36,
+        "zone_letter": "N",
+        "open_after_save": false,
+        "geometry_type": [
+            "Point",
+            "Line",
+            "Polygon"
+        ],
+        "icon_url": "http://maps.google.com/mapfiles/kml/paddle/red-square.png",
+        "scale": 1.5,
+        "color": "ff0000ff",
+        "label_content": "Code",
+        "label_scale": 1.2,
+        "label_color": "ffffffff",
+        "line_connection_logic_key": "by_code",
+        "custom_line_grouping_column": "Code",
+        "sort_points_in_line_group": true,
+        "line_width": 3,
+        "line_color": "ff0000ff"
+    }
+}

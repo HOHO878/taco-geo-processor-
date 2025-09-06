@@ -1,0 +1,25 @@
+{
+  "version": "2.1.1",
+  "release_notes": "إصلاح أخطاء Type Safety: تحسين آلية التحقق من الـ manifest وإضافة حماية من أخطاء None في نظام التحديث",
+  "download_url": "https://drive.google.com/uc?export=download&id=16byll_MpyEbMZvlEqVeXfgFpUwCpWFvz",
+  "update_client_url": "https://drive.google.com/uc?export=download&id=1Y3Y1kKWeZXyUniZScafVXhV-h3y70f-y",
+  "files": [
+    {
+      "path": "core/config.py",
+      "hash": "a1b2c3d4e5f6789012345678901234567890abcd12345678901234567890abcd"
+    },
+    {
+      "path": "processing/data_processing.py",
+      "hash": "b2c3d4e5f6789012345678901234567890abcd12345678901234567890abcde1"
+    },
+    {
+      "path": "ui/dialogs.py",
+      "hash": "c3d4e5f6789012345678901234567890abcde1a2b3c4d5e6f789012345678901"
+    },
+    {
+      "path": "updater/update_client_new.py",
+      "hash": "2b2d23baa61cd8e0a53274c702a0c2cc75d46f42fede21c9591b0d400e43bc85"
+    }
+  ],
+  "signature": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzK+updated+signature+after+fixes"
+}

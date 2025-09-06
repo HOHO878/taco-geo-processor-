@@ -1,0 +1,10 @@
+pandas
+PySide6
+ezdxf
+simplekml
+utm
+chardet
+webcolors
+openpyxl
+reportlab
+pyproj

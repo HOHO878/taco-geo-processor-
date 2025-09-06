@@ -1,0 +1,63 @@
+{
+    "dxf": {
+        "layer_name": "Survey_Export_Dev",
+        "color_mode": "By Entity",
+        "use_code_as_layer": false,
+        "dxf_line_layer_prefix": "LINE_",
+        "dxf_poly_layer_prefix": "POLY_",
+        "export_points": true,
+        "export_lines": true,
+        "export_polygons": false,
+        "export_as_blocks": true,
+        "point_style": "circle_cross",
+        "point_size": 5.0,
+        "line_connection_logic_key": "sequential",
+        "custom_line_grouping_column": "",
+        "sort_points_in_line_group": false,
+        "export_options": [
+            "Point Number",
+            "Description",
+            "Elevation",
+            "Code"
+        ],
+        "text_layer_prefix": "Text_",
+        "text_rotation": 45.0,
+        "point_color": "#ffff00",
+        "line_color": "#aaff7f",
+        "poly_color": "#ffaa00",
+        "Point_Number_height": 0.22000000000000003,
+        "Point_Number_offset": 0.5,
+        "Point_Number_color": "#e54ce5",
+        "Description_height": 0.2,
+        "Description_offset": -0.5,
+        "Description_color": "#00aaff",
+        "Elevation_height": 0.16000000000000003,
+        "Elevation_offset": -1.0,
+        "Elevation_color": "#0055ff",
+        "Code_height": 0.16000000000000003,
+        "Code_offset": 1.0,
+        "Code_color": "#ff0000"
+    },
+    "kml": {
+        "name": "Survey Export Dev",
+        "kml_format": "KMZ",
+        "zone_number": 36,
+        "zone_letter": "N",
+        "open_after_save": true,
+        "geometry_type": [
+            "Point",
+            "Line"
+        ],
+        "icon_url": "http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png",
+        "scale": 1.0,
+        "color": "ff00ff00",
+        "label_content": "Point Number (PT)",
+        "label_scale": 1.0,
+        "label_color": "ffff55ff",
+        "line_connection_logic_key": "sequential",
+        "custom_line_grouping_column": "",
+        "sort_points_in_line_group": false,
+        "line_width": 5,
+        "line_color": "ffff5555"
+    }
+}

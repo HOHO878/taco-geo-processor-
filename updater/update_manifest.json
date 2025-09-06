@@ -1,0 +1,16 @@
+{
+  "version": "1.0.1",
+  "release_notes": "إصلاح مشكلة ترميز النصوص العربية وتحسين استقرار النظام",
+  "download_url": "https://drive.google.com/uc?export=download&id=16byll_MpyEbMZvlEqVeXfgFpUwCpWFvz",
+  "files": [
+    {
+      "path": "taco.py",
+      "hash": "test_hash_1"
+    },
+    {
+      "path": "taco_geo_processor/utils/arabic_text_helper.py",
+      "hash": "test_hash_2"
+    }
+  ],
+  "signature": "test_signature"
+}

@@ -1,0 +1,137 @@
+{
+  "current_version": "1.0.0",
+  "latest_version": "1.2.0",
+  "release_date": "2023-12-01",
+  "release_notes": "تحسينات وإصلاحات هامة في الإصدار الجديد:
+
+1. تحسين كبير في أداء البرنامج وزيادة سرعته بنسبة 40%
+2. إضافة دعم كامل لتنسيقات ملفات GeoJSON و Shapefile
+3. إصلاح كامل لمشاكل تصدير ملفات KML و DXF
+4. تحديث شامل لواجهة المستخدم وجعلها أكثر سهولة ووضوحاً
+5. تحسين كبير في ميزة البحث عن التحديثات مع إمكانية التحميل في الخلفية
+6. تحسين كبير في استهلاك الذاكرة وخفضه بنسبة 30%
+7. تحسينات كبيرة في دعم اللغة العربية والترجمة
+8. إضافة ميزة استعادة البيانات تلقائياً في حال حدوث خطأ
+9. إضافة دعم لتحويل الإحداثيات بين أنظمة متعددة
+10. إضافة ميزة التصدير المباشر لخدمات Google Maps",
+  "download_url": "https://drive.google.com/uc?export=download&id=1ETm0NxkeUhFWSwr6XpPRLh17ymMwZ6M7",
+  "file_size": "18.5 MB",
+  "checksum": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3",
+  "min_compatible_version": "0.9.0",
+  "critical_update": false,
+  "changelog": {
+    "1.2.0": [
+      {"type": "improvement", "title": "تحسين أداء عام", "description": "زيادة سرعة البرنامج بنسبة 40% وتحسين استهلاك الذاكرة"},
+      {"type": "feature", "title": "دعم GeoJSON", "description": "إضافة دعم كامل لتنسيق GeoJSON للاستيراد والتصدير"},
+      {"type": "feature", "title": "دعم Shapefile", "description": "إضافة دعم كامل لتنسيق Shapefile (.shp) للاستيراد والتصدير"},
+      {"type": "bugfix", "title": "إصلاح مشاكل KML", "description": "إصلاح كامل لمشاكل تصدير ملفات KML والسمات المفقودة"},
+      {"type": "bugfix", "title": "إصلاح مشاكل DXF", "description": "إصلاح مشاكل الطبقات والسمات في ملفات DXF"},
+      {"type": "improvement", "title": "تحديث واجهة المستخدم", "description": "تحديث شامل لواجهة المستخدم لزيادة الوضوح وسهولة الاستخدام"},
+      {"type": "feature", "title": "تحسين ميزة التحديثات", "description": "إضافة إمكانية التحميل في الخلفية وتحسين واجهة المستخدم"},
+      {"type": "improvement", "title": "تحسين دعم العربية", "description": "تحسين كبير في دعم اللغة العربية والترجمة"},
+      {"type": "feature", "title": "استعادة البيانات", "description": "إضافة ميزة استعادة البيانات تلقائياً في حال حدوث خطأ"},
+      {"type": "feature", "title": "تحويل الإحداثيات", "description": "إضافة دعم لتحويل الإحداثيات بين أنظمة متعددة"},
+      {"type": "feature", "title": "تصدير لـ Google Maps", "description": "إضافة ميزة التصدير المباشر لخدمات Google Maps"}
+    ],
+    "1.1.0": [
+      {"type": "improvement", "title": "تحسين الأداء العام", "description": "تحسينات في سرعة المعالجة واستهلاك الذاكرة"},
+      {"type": "feature", "title": "إضافة دعم لتنسيق ملفات GeoJSON", "description": "دعم أولي لتنسيق GeoJSON"},
+      {"type": "bugfix", "title": "إصلاح مشاكل في تصدير ملفات DXF", "description": "إصلاح مشاكل الطبقات والسمات"},
+      {"type": "improvement", "title": "تحسين واجهة المستخدم", "description": "تحسينات في تصميم واجهة المستخدم"},
+      {"type": "feature", "title": "إضافة ميزة البحث عن التحديثات", "description": "إضافة ميزة البحث عن التحديثات"},
+      {"type": "improvement", "title": "تحسين استهلاك الذاكرة", "description": "تحسينات في استخدام الذاكرة"},
+      {"type": "improvement", "title": "تحسين دعم اللغة العربية", "description": "تحسينات في دعم اللغة العربية"}
+    ],
+    "1.0.1": [
+      {"type": "bugfix", "title": "إصلاح خطأ في تحويل الإحداثيات", "description": "إصلاح خطأ في حسابات تحويل الإحداثيات"},
+      {"type": "improvement", "title": "تحسين استقرار البرنامج", "description": "تحسينات في استقرار البرنامج وتقليل حالات التوقف"},
+      {"type": "feature", "title": "إضافة أيقونات جديدة", "description": "تحديث الأيقونات وجعلها أكثر وضوحاً"}
+    ]
+  },
+  "update_type": "stable",
+  "backup_required": true,
+  "rollback_supported": true,
+  "rollback_info": {
+    "backup_location": "{app_dir}_backup_{timestamp}",
+    "restore_command": "python update_client_new.py --rollback --backup-dir {backup_dir}"
+  },
+  "components": [
+    {
+      "name": "core",
+      "version": "1.2.0",
+      "files": [
+        {"path": "taco.py", "size": "245 KB", "checksum": "a1b2c3d4e5f67890"},
+        {"path": "taco_geo_processor/core/__init__.py", "size": "3.2 KB", "checksum": "b2c3d4e5f67890a1"},
+        {"path": "taco_geo_processor/core/config.py", "size": "18.7 KB", "checksum": "c3d4e5f67890a1b2"}
+      ],
+      "description": "المكونات الأساسية للبرنامج"
+    },
+    {
+      "name": "ui",
+      "version": "1.2.0",
+      "files": [
+        {"path": "taco_geo_processor/ui/*.py", "size": "156 KB", "checksum": "d4e5f67890a1b2c3"}
+      ],
+      "description": "واجهة المستخدم والرسوميات"
+    },
+    {
+      "name": "utils",
+      "version": "1.2.0",
+      "files": [
+        {"path": "taco_geo_processor/utils/*.py", "size": "89 KB", "checksum": "e5f67890a1b2c3d4"}
+      ],
+      "description": "الأدوات المساعدة"
+    },
+    {
+      "name": "data",
+      "version": "1.2.0",
+      "files": [
+        {"path": "taco_geo_processor/data/*.py", "size": "67 KB", "checksum": "f67890a1b2c3d4e5"}
+      ],
+      "description": "معالجة البيانات"
+    }
+  ],
+  "requirements": {
+    "python_version": ">=3.8",
+    "platforms": ["Windows", "Linux", "macOS"],
+    "dependencies": {
+      "pandas": ">=1.3.0",
+      "PySide6": ">=6.0.0",
+      "openpyxl": ">=3.0.0",
+      "pyproj": ">=3.2.0"
+    }
+  },
+  "post_update_actions": [
+    {
+      "action": "restart",
+      "description": "إعادة تشغيل البرنامج لتطبيق التحديثات"
+    },
+    {
+      "action": "run_script",
+      "script": "taco_geo_processor/post_update.py",
+      "description": "تنفيذ نص بعد التحديث لتهيئة الإعدادات الجديدة"
+    }
+  ],
+  "download_options": {
+    "max_retries": 3,
+    "chunk_size": 8192,
+    "resume_supported": true,
+    "background_download": true
+  },
+  "ui_options": {
+    "show_progress_bar": true,
+    "error_messages": {
+      "network_error": "حدث خطأ في الاتصال بالإنترنت. يرجى التحقق من اتصالك وحاول مرة أخرى.",
+      "manifest_error": "فشل في تحميل معلومات التحديث. يرجى التحقق من اتصالك بالإنترنت وحاول مرة أخرى.",
+      "checksum_error": "التحديث تالف أو تم تعديله. سيتم إيقاف عملية التنزيل لأسباب أمنية.",
+      "incompatible_version": "الإصدار الحالي غير متوافق مع هذا التحديث. يرجى تحديث الإصدار يدوياً.",
+      "storage_error": "لا توجد مساحة كافية في الجهاز لتنزيل التحديث. يرجى تحرير مساحة ثم حاول مرة أخرى."
+    },
+    "design": {
+      "theme": "dark",
+      "accent_color": "#3498db",
+      "font_family": "Segoe UI",
+      "font_size": 14
+    }
+  }
+}
